@@ -3,70 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT-Service Böhnke</title>
-
+    <title>IT-Service Böhnke | Professioneller IT-Service</title>
+    <meta name="description" content="IT-Service Böhnke unterstützt bei Netzwerk, WLAN, PC-Einrichtung, Windows-Installation, Firewall und IT-Beratung.">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<header>
-    <div class="logo">
-        IT-Service Böhnke
-    </div>
+<header class="site-header">
+    <div class="header-inner">
+        <a href="index.html" class="logo-link">
+            <img src="images/logo.png" alt="IT-Service Böhnke Logo" class="logo-img">
+        </a>
 
-    <nav>
-        <a href="index.html">Startseite</a>
-        <a href="leistungen.html">Leistungen</a>
-        <a href="kontakt.html">Kontakt</a>
-        <a href="impressum.html">Impressum</a>
-    </nav>
+        <nav class="main-nav">
+            <a href="index.html">Startseite</a>
+            <a href="leistungen.html">Leistungen</a>
+            <a href="ueber-uns.html">Über uns</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+
+        <a href="kontakt.html" class="nav-button">Anfragen</a>
+    </div>
 </header>
 
-<section class="hero">
-    <h1>Moderne IT-Lösungen für Ihr Unternehmen</h1>
-    <p>Support, Netzwerke, Server & Webentwicklung – zuverlässig aus einer Hand.</p>
+<main>
 
-    <a href="kontakt.html" class="button">Jetzt Kontakt aufnehmen</a>
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content fade-in">
+        <p class="eyebrow">IT-Service für Zuhause & kleine Unternehmen</p>
+        <h1>Zuverlässige IT-Hilfe, wenn Technik einfach funktionieren soll.</h1>
+        <p class="hero-text">
+            IT-Service Böhnke unterstützt bei Netzwerk, WLAN, PC-Einrichtung, Windows, Firewall und technischer Beratung.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="kontakt.html" class="button primary">Jetzt Kontakt aufnehmen</a>
+            <a href="leistungen.html" class="button secondary">Leistungen ansehen</a>
+        </div>
+    </div>
 </section>
 
-<section class="services" id="leistungen">
+<section class="services section-light">
     <div class="container">
         <p class="section-label">Leistungen</p>
-        <h2>IT-Service für Alltag, Zuhause und kleine Unternehmen</h2>
+        <h2>Praktische IT-Unterstützung für deinen Alltag</h2>
         <p class="section-intro">
-            Praktische Unterstützung bei Einrichtung, Sicherheit, Netzwerk und PC-Systemen.
+            Von der Einrichtung eines PCs bis zur Absicherung deines Netzwerks – verständlich, sauber und zuverlässig.
         </p>
 
         <div class="service-grid">
-            <div class="service-card">
+            <article class="service-card fade-in">
+                <div class="icon">🌐</div>
                 <h3>Netzwerk & WLAN</h3>
-                <p>Einrichtung, Optimierung und Beratung für stabile Netzwerke, Router, WLAN und Heimnetzwerke.</p>
-            </div>
+                <p>Einrichtung, Optimierung und Beratung für Router, WLAN, Heimnetzwerke und kleinere Firmennetzwerke.</p>
+            </article>
 
-            <div class="service-card">
+            <article class="service-card fade-in">
+                <div class="icon">💻</div>
                 <h3>PC-Service</h3>
-                <p>Einrichtung neuer PCs, Fehlerdiagnose, Optimierung und Unterstützung bei technischen Problemen.</p>
-            </div>
+                <p>Neue PCs einrichten, bestehende Systeme optimieren, Fehler analysieren und technische Probleme lösen.</p>
+            </article>
 
-            <div class="service-card">
+            <article class="service-card fade-in">
+                <div class="icon">🪟</div>
                 <h3>Windows & Software</h3>
-                <p>Windows-Installation, Treiber, Updates, Programme und grundlegende Systemeinstellungen.</p>
-            </div>
+                <p>Windows installieren, Treiber einrichten, Updates durchführen und benötigte Programme vorbereiten.</p>
+            </article>
 
-            <div class="service-card">
+            <article class="service-card fade-in">
+                <div class="icon">🛡️</div>
                 <h3>Firewall & Sicherheit</h3>
-                <p>Installation und Einrichtung von Firewalls, grundlegende Absicherung und Beratung zur IT-Sicherheit.</p>
-            </div>
+                <p>Grundlegende Absicherung, Firewall-Einrichtung und Beratung für mehr Schutz im Netzwerk.</p>
+            </article>
         </div>
     </div>
 </section>
 
 <section class="details">
     <div class="container">
-        <h2>Was ich konkret anbiete</h2>
+        <p class="section-label">Konkret</p>
+        <h2>Wobei ich helfen kann</h2>
 
-        <div class="details-list">
+        <div class="details-list fade-in">
             <span>Netzwerk-Einrichtung</span>
             <span>WLAN-Optimierung</span>
             <span>PC einrichten</span>
@@ -81,9 +101,75 @@
     </div>
 </section>
 
-<footer>
+<section class="about">
+    <div class="container about-grid">
+        <div class="fade-in">
+            <p class="section-label">Warum IT-Service Böhnke?</p>
+            <h2>Technik verständlich erklärt – ohne unnötiges Fachchinesisch.</h2>
+            <p>
+                Mein Ziel ist es, IT-Probleme sauber zu lösen und verständlich zu erklären.
+                Ob neuer PC, instabiles WLAN, Windows-Probleme oder Netzwerksicherheit:
+                Du bekommst eine ehrliche Einschätzung und praktische Unterstützung.
+            </p>
+        </div>
+
+        <div class="trust-box fade-in">
+            <h3>Das ist mir wichtig</h3>
+            <ul>
+                <li>✔ Verständliche Beratung</li>
+                <li>✔ Saubere Einrichtung</li>
+                <li>✔ Ehrliche Einschätzung</li>
+                <li>✔ Zuverlässige Umsetzung</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="process section-light">
+    <div class="container">
+        <p class="section-label">Ablauf</p>
+        <h2>So läuft eine Anfrage ab</h2>
+
+        <div class="process-grid">
+            <div class="process-step fade-in">
+                <span>01</span>
+                <h3>Anfrage senden</h3>
+                <p>Du beschreibst kurz dein Anliegen über die Kontaktseite.</p>
+            </div>
+
+            <div class="process-step fade-in">
+                <span>02</span>
+                <h3>Einschätzung erhalten</h3>
+                <p>Ich schaue mir dein Anliegen an und gebe dir eine erste Einschätzung.</p>
+            </div>
+
+            <div class="process-step fade-in">
+                <span>03</span>
+                <h3>Umsetzung</h3>
+                <p>Nach Absprache wird dein IT-Problem sauber und nachvollziehbar gelöst.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <div class="container fade-in">
+        <h2>Brauchst du Hilfe mit deiner IT?</h2>
+        <p>Dann schreib mir kurz, worum es geht. Ich melde mich so schnell wie möglich zurück.</p>
+        <a href="kontakt.html" class="button primary">Kontakt aufnehmen</a>
+    </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
     <p>© 2026 IT-Service Böhnke</p>
+    <p>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+    </p>
 </footer>
 
+<script src="js/script.js"></script>
 </body>
 </html>
